@@ -31,6 +31,14 @@ import java.util.Date;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+//TODO: 1. Boolean.TRUE.equals(license.getBlocked()) - конструкция странная, просто license.getBlocked() нельзя?
+//TODO: 2. log.info("Тикет: {}", ticket); - тикет нужен не нам, а клиенту. Его нужно не логировать, а отправлять в ответ
+//TODO: 3. Многих методов касается. Тикет нужно возвращать, а не просто писать в лог
+//TODO: 4. activateLicense - потенциальной состояние гонки при попытке изменить кол-во доступных устройств.
+//TODO: 5. Если убавляете кол-во устройств, то где-то ещё должны прибавлять
+//TODO: 6. При первой активации должен устанавливаться пользователь
+//TODO: 7. licenseCheck - почему меняется пользователь?
+
 @Service
 @RequiredArgsConstructor
 @Slf4j

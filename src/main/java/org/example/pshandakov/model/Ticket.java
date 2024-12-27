@@ -14,6 +14,8 @@ import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.UUID;
 
+//TODO: 1. createTicket - должна быть реализация цифровой подписи, а не UUID
+
 @Getter
 @Setter
 @AllArgsConstructor

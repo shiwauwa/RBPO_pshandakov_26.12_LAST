@@ -23,6 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.text.ParseException;
 import java.util.Optional;
 
+//TODO: 1. updateLicense - клиент должен сам инициировать запрос на продление
+
 @RestController
 @RequestMapping("/licensing")
 @RequiredArgsConstructor

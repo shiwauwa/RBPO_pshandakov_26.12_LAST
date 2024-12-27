@@ -11,6 +11,8 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 
+//TODO: Неверная структура пакетов. Структура должна начинаться с ru.mtuci.имя_проекта
+
 @RequiredArgsConstructor
 public class JwtTokenFilter extends OncePerRequestFilter {
 

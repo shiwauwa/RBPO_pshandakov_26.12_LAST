@@ -8,6 +8,8 @@ import lombok.Setter;
 
 import java.util.Date;
 
+//TODO: 1. Неверна создана сущность. Она должна реализовывать связи многие ко многим между устройствами и лицензиями. Сейчас 1 к 1.
+
 @Entity
 @Getter
 @Setter
